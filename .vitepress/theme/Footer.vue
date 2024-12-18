@@ -71,7 +71,9 @@
               <p>Nocode tool for Creating Web Apps and Websites Without Writing any Code.
               </p>
               <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <button type="button" href="https://app.peppubuild.com" class="btn btn-dark">Start Now!</button>
+                <a href="https://app.peppubuild.com" class="btn btn-dark">
+                    <button type="button" >Start Now!</button>
+                </a>
               </div>
         </div>
         <div class="d-flex justify-content-center align-items-center flex-container mar">
