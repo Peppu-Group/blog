@@ -27,7 +27,7 @@ const { frontmatter } = useData()
           <div class="space-y-5 xl:col-span-3">
             <div class="space-y-6">
               <h2 class="text-2xl leading-8 font-bold tracking-tight">
-                <a class="text-gray-900 dark:text-white" :href="url">{{
+                <a class="text-gray-900 dark:text-white remove-deco" :href="url">{{
                   title
                 }}</a>
               </h2>

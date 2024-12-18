@@ -43,6 +43,10 @@ h3 .header-anchor {
   color: var(--c-brand);
 }
 
+.remove-deco{
+  text-decoration: none;
+}
+
 h3 .header-anchor:before {
   content: '#';
 }

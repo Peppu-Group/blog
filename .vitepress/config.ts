@@ -20,7 +20,7 @@ export default defineConfig({
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/favicon.ico'
+        href: 'https://www.peppubuild.com/favicon.ico'
       }
     ],
     [

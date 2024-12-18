@@ -14,7 +14,7 @@ const { frontmatter } = useData()
         <li class="flex items-center space-x-2">
           <img
             v-if="frontmatter.gravatar"
-            :src="'https://gravatar.com/avatar/' + frontmatter.gravatar"
+            :src="`https://drive.google.com/thumbnail?id=${frontmatter.gravatar}&sz=w1000`"
             alt="author image"
             class="w-10 h-10 rounded-full"
           />

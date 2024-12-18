@@ -1,12 +1,12 @@
 ---
-title: 'Announcing VitePress 1.0'
-date: 2024-03-21
-author: Evan You
-gravatar: eca93da2c67aadafe35d477aa8f454b8
-twitter: '@youyuxi'
+title: 'The Future is No-code'
+date: 2024-12-18
+author: Ukpai Ugochi Ibem
+gravatar: 1t7YghWTfjB5qXTRAQR3BucJF-9qUk_Ie
+twitter: '@hannydevelop'
 ---
 
-<img src="https://vitepress.dev/vitepress-logo-large.webp" alt="vitepress logo"  style="width:256px; margin:2em auto;">
+<img src="https://peppubuild.com/AboutMain.png" alt="The future is no-code"  style="width:40vw; margin:2em auto;">
 
 Today we are happy to announce the (long overdue) 1.0 release of [VitePress](https://vitepress.dev/)!
 

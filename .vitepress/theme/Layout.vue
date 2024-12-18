@@ -2,6 +2,7 @@
 import { useData } from 'vitepress'
 import Home from './Home.vue'
 import Article from './Article.vue'
+import Footer from './Footer.vue'
 import NotFound from './NotFound.vue'
 
 const { page, frontmatter } = useData()
@@ -16,35 +17,29 @@ const { page, frontmatter } = useData()
             class="inline-block mr-2"
             style="width: 36px; height: 31px"
             alt="logo"
-            src="/logo.svg"
+            src="https://www.peppubuild.com/favicon.ico"
           />
           <span
             v-if="!frontmatter.index"
             class="hidden md:inline dark:text-white"
-            >The Vue Point</span
+            >Peppubuild's blog</span
           >
         </a>
         <div class="text-sm text-gray-500 dark:text-white leading-5">
           <a
-            class="hover:text-gray-700 dark:hover:text-gray-200"
-            href="https://github.com/vuejs/blog"
+            class="hover:text-gray-700 dark:hover:text-gray-200 link remove-deco"
+            href="https://github.com/Peppu-Group/Peppubuild"
             target="_blank"
             rel="noopener"
             ><span class="hidden sm:inline">GitHub </span>Source</a
           >
           <span class="mr-2 ml-2">·</span>
           <a
-            class="hover:text-gray-700 dark:hover:text-gray-200 vp-raw"
-            href="/feed.rss"
-            >RSS<span class="hidden sm:inline"> Feed</span></a
-          >
-          <span class="mr-2 ml-2">·</span>
-          <a
-            class="hover:text-gray-700 dark:hover:text-gray-200"
-            href="https://vuejs.org"
+            class="hover:text-gray-700 dark:hover:text-gray-200 link remove-deco"
+            href="https://peppubuild.com"
             target="_blank"
             rel="noopener"
-            >Vuejs.org →</a
+            >Peppubuild.com →</a
           >
         </div>
       </nav>
@@ -54,5 +49,6 @@ const { page, frontmatter } = useData()
       <NotFound v-else-if="page.isNotFound" />
       <Article v-else />
     </main>
+    <Footer />
   </div>
 </template>

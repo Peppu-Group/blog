@@ -1,5 +1,5 @@
 ---
-title: The Vue Point
-subtext: Updates, tips & opinions from the maintainers of Vue.js.
+title: Peppubuild Blog
+subtext: Updates, tips & how-to-guides.
 index: true
 ---
