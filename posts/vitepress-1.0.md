@@ -8,7 +8,7 @@ twitter: '@hannydevelop'
 
 <img src="https://peppubuild.com/AboutMain.png" alt="The future is no-code"  style="width:40vw; margin:2em auto;">
 
-Today we are happy to announce the launch of Peppubuild's blog. This platform covers new releases, updates, features, and how-to-guides.
+Today we are happy to announce the launch of Peppubuild's blog. This platform covers new releases, updates, features, and how-to guides.
 
 ---
 
@@ -21,7 +21,7 @@ With Peppubuild, teams can build fully functional websites, without writing any 
 Peppubuild allows you to connect to external CMS (Content Management Systems) and databases so that users can get real-time data. This feature allows the creation of dynamic websites and web applications.
 
 - **Internal Tools**
-Internal tools like process management routes and file management tools can be built with Peppubuild. This builds efficiency across teams, as repitive tasks can be automated with Peppubuild.
+Internal tools like process management routes and file management tools can be built with Peppubuild. This builds efficiency across teams, as repetitive tasks can be automated with Peppubuild.
 
 ## Performance
 
@@ -29,11 +29,11 @@ Unlike many traditional no-code tools that display images and other media in `ba
 
 - **Fast Initial Load**
 
-  The initial visit to your page will be served the static, pre-rendered HTML for fast loading speed and optimal SEO. The page then loads a JavaScript bundle that turns the page into a Vue SPA ("hydration"). Images are also loaded from your Google Drive's cloud storage, and cached. Hence, giving an instant load feel, since images from the web server isn't requested everytime there's a reload (as in the case of base64 images that can't be cached)
+  The initial visit to your page will be served the static, pre-rendered HTML for fast loading speed and optimal SEO. The page then loads a JavaScript bundle that turns the page into a Vue SPA ("hydration"). Images are also loaded from your Google Drive's cloud storage, and cached. Hence, giving an instant load feel, since images from the web server aren't requested every time there's a reload (as in the case of base64 images that can't be cached)
 
 - **Fast Post-load Navigation**
 
-  VueJs SPA model leads to better user experience **after** the initial load. Subsequent navigation within the site will no longer cause a full page reload. Instead, the incoming page's content will be fetched and dynamically updated. This post-load navigation will feel instant as VueJs automatically pre-fetches page chunks for links that are within viewport. 
+  VueJs SPA model leads to a better user experience **after** the initial load. Subsequent navigation within the site will no longer cause a full page reload. Instead, the incoming page's content will be fetched and dynamically updated. This post-load navigation will feel instant as VueJs automatically pre-fetches page chunks for links that are within the viewport. 
 ---
 
-The path to VitePress 1.0 wouldn't have been possible without the hard work of [our contributors](https://github.com/vuejs/vitepress/graphs/contributors). In particular, shout out to [Kia King Ishii (@kiaking)](https://github.com/kiaking) for creating the beautiful design for the default theme, and [Divyansh Singh (@brc-dd)](https://github.com/brc-dd) for tirelessly leading the maintenance and pushing new features.
+Peppubuild is free for use, as it is still under development. You can give us a [star on GitHub](https://github.com/Peppu-Group/Peppubuild) if you love what we're doing. Join our community on [Discord](https://discord.com/invite/rHSdJRzzrm) and let us know the features you'd like to see in Peppubuild.
