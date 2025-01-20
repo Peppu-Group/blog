@@ -3,16 +3,16 @@ import { genFeed } from './genFeed.js'
 
 export default defineConfig({
   title: 'No-code Builder',
-  description: 'The official blog for the Vue.js project',
+  description: 'Build websites and applications without writing any code',
   cleanUrls: true,
   head: [
-    ['meta', { name: 'twitter:site', content: '@vuejs' }],
-    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:site', content: '@peppubuild' }],
+    ['meta', { name: 'twitter:card', content: 'peppubuild' }],
     [
       'meta',
       {
         name: 'twitter:image',
-        content: 'https://vuejs.org/images/logo.png'
+        content: 'https://www.peppubuild.com/favicon.ico'
       }
     ],
     [
@@ -31,7 +31,23 @@ export default defineConfig({
         'data-spa': 'auto',
         defer: ''
       }
-    ]
+    ],
+    [
+      'script',
+      {
+        async: '',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-MFM2VRN4FC',
+      }
+    ],
+    [
+      'script',
+      {  },
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-MFM2VRN4FC');`
+    ],
   ],
   buildEnd: genFeed
 })
