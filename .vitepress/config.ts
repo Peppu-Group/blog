@@ -8,6 +8,14 @@ export default defineConfig({
   head: [
     ['meta', { name: 'twitter:site', content: '@peppubuild' }],
     ['meta', { name: 'twitter:card', content: 'peppubuild' }],
+    ['meta', { name: 'keywords', content: `proctored by Peppubuild, Peppubuild exam proctoring, proctor Google Forms, Google Forms proctoring tool,
+    online exam proctoring with Google Forms, Peppubuild secure testing, Peppubuild proctored Google Forms,
+    how to proctor Google Forms with Peppubuild, best tool to proctor Google Form exams, set time limit and proctor Google Forms,
+    Google Forms camera and screen monitoring, remote exam monitoring for Google Forms, Peppubuild exam timer for Google Forms,
+    secure student exams using Google Forms, timed Google Forms with screen recording, auto-close Google Forms on time,
+    student activity monitoring in Google Forms, Google Form with camera access for exams, Google Forms cheat prevention tools,
+    record screen during Google Form exam, teachers proctoring Google Forms, remote learning exam tools,
+    secure Google Form for schools, Google Forms for online assessments, online exam tool for students` }],
     [
       'meta',
       {
