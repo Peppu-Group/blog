@@ -276,11 +276,13 @@ However, the problem with this setup is that the form will still be available ou
 ## Final Thoughts
 In this tutorial, we have explored the different ways of scheduling Google Forms, including the use of add-ons like Proctored by Peppubuild. 
 
-Method | Requires Code | Auto Open/Close | Best For
-Google Apps Script | ✅ Yes | ✅ Yes | Tech-savvy users, Full control
-Proctored Add-on | ❌ No | ✅ Yes | Simple use cases, Full control
-Manual Setup | ❌ No | ❌ (non automated) | Full control
-Custom Wrapper, Embeding | ✅ Yes | ✅ Yes | Tech-savvy users
+| Method                    | No Code | Auto Open/Close    | Best For                                |
+|---------------------------|----------------|---------------------|------------------------------------------|
+| Google Apps Script        | ❌ No          | ✅ Yes              | Tech-savvy users, Full control           |
+| Proctored Add-on          | ✅ Yes         | ✅ Yes              | Simple use cases, Full control           |
+| Manual Setup              | ✅ Yes         | ❌ (non automated)  | Full control                             |
+| Custom Wrapper, Embedding | ❌ No          | ✅ Yes              | Tech-savvy users                         |
+
 
 Try out [Proctored by Peppubuild](https://proctored.peppubuild.com) and all of its features as we build a fool-proof proctored exam solutions using Google Forms.
 
