@@ -1,6 +1,6 @@
 ---
 title: 'How to create a timed quiz using Google Forms'
-date: 2024-05-12
+date: 2025-05-12
 author: Ukpai Ugochi Ibem
 gravatar: 1t7YghWTfjB5qXTRAQR3BucJF-9qUk_Ie
 twitter: '@hannydevelop'
