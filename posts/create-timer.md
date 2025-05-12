@@ -6,7 +6,7 @@ gravatar: 1t7YghWTfjB5qXTRAQR3BucJF-9qUk_Ie
 twitter: '@hannydevelop'
 ---
 
-<img src="./images/producthunt-6.png" alt="How to create a timed quiz using Google Forms"  style="width:40vw; margin:2em auto;">
+<img src="https://drive.google.com/thumbnail?id=1Y4CllXOeNmNgtVFq06Rl2PfHzPZ6DHCr&sz=w1000" alt="How to create a timed quiz using Google Forms"  style="width:40vw; margin:2em auto;">
 
 In this tutorial, we will explore how to create a timed Google Form. While Google doesn't provide a means for implemmenting this, you can use an add-on or write an Apps Script that introduces a timer.
 
